@@ -200,8 +200,8 @@ end
     data = game_hash
     # create an array of players from both home team and away team
 
-    home_players = game_hash[:home][:players]
-    away_players = game_hash[:away][:players]
+    home_players = data[:home][:players]
+    away_players = data[:away][:players]
     player_array = home_players.concat(away_players)
 
     # iterate over the players array to find the biggest shoe size
