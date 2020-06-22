@@ -203,10 +203,10 @@ end
     player_array = home_players.concat(away_players)
 
     # iterate over the players array to find the biggest shoe size
-    biggest_shoe = player_array.max_by { |player| player[:shoe] }
+    player_with_biggest_shoe = player_array.max_by { |player| player[:shoe] }
 
     # when I find the biggest shoe size return rebounds
-    puts biggest_shoe[:rebounds]
+    puts player_with_biggest_shoe[:rebounds]
 
   end
   big_shoe_rebounds
