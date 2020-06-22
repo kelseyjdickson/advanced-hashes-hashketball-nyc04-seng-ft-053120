@@ -195,7 +195,13 @@ def player_stats(players_name)
 end
 
   def big_shoe_rebounds
-    home_team = game_hash[:home][:players].max_by { |player| player[:shoe] }
-     home_team[:rebounds]
+    # home_team = game_hash[:home][:players].max_by { |player| player[:shoe] }
+    #  home_team[:rebounds]
+    # create an array of players from both home team and away team
+    player_array =
+    home_players = game_hash[:home][:players]
+    # iterate over the players array to find the biggest shoe size
+    # when I find the biggest shoe size return rebounds
+
 
   end
