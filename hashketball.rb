@@ -204,7 +204,7 @@ end
 
     # iterate over the players array to find the biggest shoe size
     biggest_shoe = player_array.max_by { |player| player[:shoe] }
-  
+
     # when I find the biggest shoe size return rebounds
 puts biggest_shoe
 
