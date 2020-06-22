@@ -199,7 +199,3 @@ end
      home_team[:rebounds]
 
   end
-
-
-
-
